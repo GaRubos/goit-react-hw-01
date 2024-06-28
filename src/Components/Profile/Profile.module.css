@@ -1,0 +1,36 @@
+.wrapper {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 320px;
+}
+
+.userDate {
+    text-align: center;
+}
+
+
+.imageWrapper {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.userImage {
+    width: 100%;
+    height: 100%;
+    border: 5px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userName {
+    color: black;
+    font-weight: bold;
+}
+
+.stats {
+    display: flex;
+    list-style: none;
+    background-color: rgb(113, 116, 116);
+}
