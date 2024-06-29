@@ -1,8 +1,10 @@
 .userCard {
     border: 2px solid black;
     border-radius: 5px;
-    padding: 10px;
     width: 320px;
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-top: 25px;
     box-shadow: 2px 2px 4px 4px gray;
 }
 
@@ -15,12 +17,14 @@
     width: 200px;
     height: 200px;
     margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: black;
+    border-radius: 50%;
 }
 
 .userImage {
     width: 100%;
     height: 100%;
-    border: 5px solid black;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -30,8 +34,23 @@
     font-weight: bold;
 }
 
+.wrapperIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .stats {
     display: flex;
+    justify-content: space-around;
     list-style: none;
-    background-color: rgb(113, 116, 116);
+    background-color: #D3D3D3;
+}
+
+.statsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    /* outline: 1px solid red; */
 }
