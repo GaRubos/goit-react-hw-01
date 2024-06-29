@@ -1,9 +1,8 @@
 import s from './Profile.module.css';
 import { MdOutlineAlternateEmail } from "react-icons/md";
 
-const Profile = ({ username, tag, location, image  }) => {
-
-    
+const Profile = ({ username, tag, location, image, stats }) => {
+ 
   return (
     <div className={s.userCard}>
       
@@ -19,15 +18,15 @@ const Profile = ({ username, tag, location, image  }) => {
       <ul className={s.stats}>
         <li className={s.statsItem}>
           <span>Followers</span>
-          <span>1000</span>
+          <span> { stats.followers} </span>
         </li>
         <li className={s.statsItem}>
           <span>Views</span>
-          <span>2000</span>
+          <span>{ stats.views}</span>
         </li>
         <li className={s.statsItem}>
           <span>Likes</span>
-          <span>3000</span>
+          <span>{ stats.likes}</span>
         </li>
       </ul>
 </div>
