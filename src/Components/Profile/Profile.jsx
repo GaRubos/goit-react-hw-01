@@ -12,7 +12,7 @@ const Profile = ({ username, tag, location, image, stats }) => {
         </div>
         <p className={s.userName}>{username}</p>
         <p className={s.wrapperIcon}> <MdOutlineAlternateEmail /> {tag}</p>
-        <p>{location}</p>
+        <p className={s.userLocation}>{location}</p>
       </div>
       
       <ul className={s.stats}>
@@ -29,6 +29,7 @@ const Profile = ({ username, tag, location, image, stats }) => {
           <span>{ stats.likes}</span>
         </li>
       </ul>
+
 </div>
 
   )
