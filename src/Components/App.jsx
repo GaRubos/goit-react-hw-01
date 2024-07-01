@@ -4,7 +4,7 @@ import friends from "../assets/friends.json";
 import Profile from "./Profile/Profile";
 import userData from "../assets/userData.json";
 
-import TransactionHistory from "./TransactionHistory1/TransactionHistory";
+import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import transactions from "../assets/transactions.json";
 
 const App = () => {
